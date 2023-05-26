@@ -1,15 +1,52 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
-        <title>情報工学部非公式HP</title>
+        <meta charset="utf-8">        <!--文字コード-->
+        <title>情報工学部非公式HP</title>        <!--タイトル-->
         <meta name="description" content="ページの概要">
-        <meta name="viewport" content="width=device-width">
-        <script src="js/toggle-menu.js"></script>
-        <link href="css/common.css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">        <!--表示領域-->
+        <script src="js/toggle-menu.js"></script>        <!--jsファイル-->
+        <link href="css/common.css" rel="stylesheet">        <!--cssファイル-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">        <!--外部ファイル-->
     </head>
 
     <body>
-
+        <!--header ここから-->
+        <header class="header">
+            <div class="header_inner">
+                <a class="header_logo" href="index.html">        <!--aタグはリンク-->
+                    <img src="images/common/logo.png" alt="ロゴ">        <!--画像が表示されないときaltを表示-->
+                </a>
+                <button class="toggle-menu-button"></button>
+                <div class="header_site_menu">
+                    <nav class="site_menu">        <!--ナビゲーション　リンク飛びたい-->
+                        <ul>        <!--　順序なしリスト　-->
+                            <li><a href="concept.html">コンセプト</a></li>        <!--リスト要素-->
+                            <li><a href="members.html">メンバー</a></li>
+                            <li><a href="access.html">アクセス</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <!--header ここまで-->
+        <!--main ここから-->
+        <main class="main"></main>
+        <!--main ここまで-->
+        <!--footer ここから-->
+        <footer class="footer">
+            <nav class="site_menu">        <!--ナビゲーション　リンク飛びたい-->
+                <ul>        <!--　順序なしリスト　-->
+                    <li><a href="concept.html">コンセプト</a></li>        <!--リスト要素-->
+                    <li><a href="members.html">メンバー</a></li>
+                    <li><a href="access.html">アクセス</a></li>
+                </ul>
+            </nav>
+            <a class="footer_logo" href="index.html">
+                <img src="images/common/logo_footer.png" alt="ロゴ">
+            </a>
+            <p class="copyright"><small>&copy;名城大学情報工学部</small></p>
+        </footer>
+        <!--footer ここまで-->
     </body>
 </html>
